@@ -11,6 +11,7 @@ import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import pythonIcon from "../../assets/python-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 
@@ -69,6 +70,11 @@ export function About() {
               <img src={jsIcon} alt="JavaScript" />
             </ScrollAnimation>
           </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={pythonIcon} alt="Python" />
+            </ScrollAnimation>
+          </div>
         </div>
       </div>
       <div className="about-image">
@@ -76,6 +82,6 @@ export function About() {
           <img src={VinayakSingh} alt="Patrick Huynh" />
         </ScrollAnimation>
       </div>
-    </Container>
+    </Container >
   )
 }

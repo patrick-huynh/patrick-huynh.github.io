@@ -17,7 +17,7 @@ export const Container = styled.section`
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     gap: 2rem;
-    padding: 1rem 10rem;
+    padding: 1rem;
     overflow: hidden;
 
     .project{
