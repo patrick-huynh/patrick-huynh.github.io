@@ -26,8 +26,7 @@ export function About() {
             My name is Patrick Huynh and I'm studying computer science at the University of Waterloo</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
-
-          <p>I am passionate in working on software projects and innovating striving for creative tech solutions.</p>
+          <p>I am passionate in working on innovative software projects and striving for creative tech solutions.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
 
@@ -59,7 +58,7 @@ export function About() {
               <img src={cssIcon} alt="Css" />
             </ScrollAnimation>
           </div>
-          
+
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
               <img src={boostrapIcon} alt="bootstrap" />

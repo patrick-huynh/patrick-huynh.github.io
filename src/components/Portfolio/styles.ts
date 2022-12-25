@@ -17,7 +17,7 @@ export const Container = styled.section`
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     gap: 2rem;
-    padding: 1rem;
+    padding: 1rem 10rem;
     overflow: hidden;
 
     .project{
@@ -31,7 +31,10 @@ export const Container = styled.section`
       color: #FFF;
       &:hover{
         transform: translateY(-5px);
-        background-color: var(--pink);
+        h3 {
+          color: var(--primary);
+          transition: 0.25s;
+        }
       }
 
       header{
@@ -40,10 +43,18 @@ export const Container = styled.section`
         justify-content: space-between;
         color: var(--primary);
         margin-bottom: 3.6rem;
+
         .project-links{
           display: flex;
           align-items: center;
           gap: 1rem;
+        }
+
+        .project-link {
+          &:hover {
+            opacity: 50%;
+            transition: 0.25s;
+          }
         }
         a > img {
           width: 5.0rem;
@@ -83,12 +94,14 @@ export const Container = styled.section`
 
   @media (max-width: 960px){
     .projects{
+      padding: 1rem;
       grid-template-columns: 1fr 1fr;
     }
   }
 
   @media (max-width: 740px){
     .projects{
+      padding: 1rem;
       grid-template-columns: 1fr;
     }
   }
