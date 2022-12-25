@@ -3,12 +3,13 @@ import styled from "styled-components";
 
 //👋
 export const Container = styled.section`
-  padding-top: 15%;
+  padding-top: 10%;
   display: flex;
   justify-content: space-between;
   gap: 8rem;
   background: rgba(0,0,0,0);
   .hero-text{
+    margin: auto 0;
     & > p{
       font-size: 1.8rem;
     }
@@ -17,7 +18,7 @@ export const Container = styled.section`
     }
 
     h3{
-      color:var(--green);
+      color:var(--primary);
       margin: 1rem 0;
     }
 
@@ -49,7 +50,8 @@ export const Container = styled.section`
 
   .hero-image{
     img{
-      max-width: 500px;
+      max-width: 600px;
+      padding-right: 15%;
     }
   }
 
@@ -58,7 +60,6 @@ export const Container = styled.section`
     display: block;
     margin-top: 15%;
     .hero-text{
-
       h1{
         font-size: 5rem;
       }
