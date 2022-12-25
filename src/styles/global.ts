@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     --grey: #797a7d;
     --black: #212121;
     --green: #23ce6b;
-    --blue: #046ec4;
+    --primary: #368bcf;
     scroll-padding-top: 10rem;
 
     &.light{
@@ -98,7 +98,7 @@ export const GlobalStyle = createGlobalStyle`
   button, .button{
     border: none;
     cursor: pointer;
-    background-color: var(--blue);
+    background-color: var(--primary);
     color: #FFFF;
     border-radius: 2rem;
     font-weight: 500;
