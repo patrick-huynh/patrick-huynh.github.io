@@ -18,9 +18,10 @@ export function Footer() {
       <div>
         <p>
           This Website was made with <img src={reactIcon} alt="React" />
-        </p>
           Inspired by Vinayak
           <span>❤️</span>
+        </p>
+          
       </div>
 
       <div className="social-media">
