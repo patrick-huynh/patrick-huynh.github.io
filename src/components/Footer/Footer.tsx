@@ -12,14 +12,15 @@ export function Footer() {
   return (
     <Container className="footer">
       <a href="/" className="logo">
-        <span>Vinayak</span>
-        <span>Singh</span>
+        <span>Patrick</span>
+        <span>Huynh</span>
       </a>
       <div>
         <p>
           This Website was made with <img src={reactIcon} alt="React" />
-          {/* <span>❤️</span> */}
         </p>
+          Inspired by Vinayak
+          <span>❤️</span>
       </div>
 
       <div className="social-media">

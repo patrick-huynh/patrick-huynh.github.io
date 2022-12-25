@@ -23,7 +23,7 @@ export function Main() {
       <Hero></Hero>
       <About></About>
       <Portfolio></Portfolio>
-      <Contact></Contact>
+      {/* <Contact></Contact> */}
     </Container>
   );
 }
