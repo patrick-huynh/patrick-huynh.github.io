@@ -57,6 +57,12 @@ export const GlobalStyle = createGlobalStyle`
         }
       }
 
+      // Change the portfolio card color
+      .project {
+        background-color: #dbdbdb;
+        color: var(--black);
+      }
+
     }
   }
 

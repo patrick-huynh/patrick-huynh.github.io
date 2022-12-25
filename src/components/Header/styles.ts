@@ -134,7 +134,7 @@ export const Container = styled.header`
   }
 
   input:checked + label {
-    background: var(--grey);
+    background: var(--black);
   }
 
   input:checked + label:after {

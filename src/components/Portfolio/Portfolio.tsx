@@ -6,21 +6,19 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 
 export function Portfolio() {
+  const primaryColor = "#368bcf";
   return (
     <Container id="portfolio">
-      <h2>My Portfolio</h2>
+      <h2>Portfolio</h2>
       <div className="projects">
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke={primaryColor} stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://ecommerce.vinayaksingh.in/wp-content/uploads/2022/08/Ecommerce.apk" target="_blank" rel="noreferrer">
-                  <img src={DownloadApp} alt="Download App" />
-                </a>
                 <a href="https://ecommerce.vinayaksingh.in/" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
+                  <img className="extenal-link" src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
@@ -44,7 +42,7 @@ export function Portfolio() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke={primaryColor} stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
                 <a href="https://madewithluv.in/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
@@ -109,7 +107,7 @@ export function Portfolio() {
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Wordpress</li>               
+                <li>Wordpress</li>
               </ul>
             </footer>
           </div>
@@ -181,7 +179,7 @@ export function Portfolio() {
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Wordpress</li>              
+                <li>Wordpress</li>
               </ul>
             </footer>
           </div>

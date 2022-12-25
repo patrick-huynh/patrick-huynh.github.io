@@ -3,6 +3,9 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   margin-top: 15rem;
+
+  .external-link {
+  }
   
   h2{
     text-align: center;
@@ -35,7 +38,7 @@ export const Container = styled.section`
         display: flex;
         align-items: center;
         justify-content: space-between;
-        color: var(--blue);
+        color: var(--primary);
         margin-bottom: 3.6rem;
         .project-links{
           display: flex;
@@ -56,10 +59,10 @@ export const Container = styled.section`
         margin-bottom: 2rem;
         a{
           color: #FFFF;
-          border-bottom: 1px solid var(--green);
+          border-bottom: 1px solid var(--primary);
           transition: color 0.25s;
           &:hover{
-            color: var(--green);
+            color: var(--primary);
           }
         }
       }
