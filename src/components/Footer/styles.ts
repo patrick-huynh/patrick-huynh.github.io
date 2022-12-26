@@ -8,7 +8,7 @@ export const Container = styled.footer`
   margin-top: 15rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 
 
   .logo{

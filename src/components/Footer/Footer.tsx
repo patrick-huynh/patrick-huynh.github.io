@@ -1,42 +1,33 @@
 import { Container } from './styles'
 
 import reactIcon from '../../assets/react-icon.svg'
-import linkedin from '../../assets/linkedin.svg'
-import githubIcon from '../../assets/github.svg'
-
-import { githubLink, linkedinLink } from '../../utils/Links'
+import { Socials } from './Socials'
 
 export function Footer() {
   return (
     <Container className="footer">
-      <a href="/" className="logo">
-        <span>Patrick</span>
-        <span>Huynh</span>
-      </a>
       <div>
         <p>
-          This Website was made with <img src={reactIcon} alt="React" />
-          Inspired by Vinayak
-          <span>❤️</span>
+          Made with React.
         </p>
-
       </div>
-
+      <div>
+        <p>
+          {"Thanks for dropping by :) Connect with me ->"}
+        </p>
+      </div>
       <div className="social-media">
-        <a
-          href={linkedinLink}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={linkedin} alt="Linkedin" />
-        </a>
-        <a
-          href={githubLink}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={githubIcon} alt="GitHub" />
-        </a>
+        {
+          Socials.map(({ name, link, icon }) => (
+            <a
+              href={link}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={icon} alt={name} />
+            </a>
+          ))
+        }
       </div>
     </Container>
   )
