@@ -34,6 +34,11 @@ export const Container = styled.footer`
     img,span{
       font-size: 3rem;
       width: 3rem;
+
+      &:hover {
+        opacity: 50%;
+        transition: 0.25s;
+      }
     }
   }
 

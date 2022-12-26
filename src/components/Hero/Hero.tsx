@@ -8,6 +8,7 @@ import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
 import Hello from '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.svg'
+import { githubLink, linkedinLink } from "../../utils/Links"
 export function Hero() {
   return (
     <Container id="home">
@@ -26,15 +27,16 @@ export function Hero() {
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
-          <div className="social-media"><a
-            href="https://www.linkedin.com/in/-patrickhuynh"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={linkedin} alt="Linkedin" />
-          </a>
+          <div className="social-media">
             <a
-              href="https://github.com/patrick-huynh"
+              href={linkedinLink}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={linkedin} alt="Linkedin" />
+            </a>
+            <a
+              href={githubLink}
               target="_blank"
               rel="noreferrer"
             >

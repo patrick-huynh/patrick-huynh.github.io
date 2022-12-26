@@ -28,7 +28,7 @@ export const Container = styled.section`
     }
   }
 // New added
-  .social-media{
+  .social-media {
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
@@ -36,7 +36,7 @@ export const Container = styled.section`
     padding-top:5rem;
     padding-left:1rem;
 
-    img,span{
+    img, span {
       font-size: 3rem;
       width: 3.5rem;
     }
