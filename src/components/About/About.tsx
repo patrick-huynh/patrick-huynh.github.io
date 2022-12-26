@@ -21,7 +21,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
 
-          <p>Some of my sports and hobbies include photography, working out and ulitmate frisbee.</p>
+          <p>Some of my sports and hobbies include photography and ulitmate frisbee.</p>
         </ScrollAnimation>
 
 
