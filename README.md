@@ -5,7 +5,8 @@
 ### 🧠 How To Use
 
 - Clone this repo
-- Run `npm run start` in the immediate directory
+- Run `npm run install` in the immediate directory
+- Run `npm run start`
 - Go to `http://localhost:3000   `
 
 ### 🚗 How to deploy
