@@ -24,9 +24,9 @@ export const Container = styled.header`
     a{
       color: #FFFF;
       padding: 0.6rem;
-      font-family: 'Red Hat Display', sans-serif;
-      font-weight: 500;
-      text-transform: uppercase;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      letter-spacing: 0.075em;
       transition: filter 0.25s;
 
       &.button{

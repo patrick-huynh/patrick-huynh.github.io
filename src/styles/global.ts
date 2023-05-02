@@ -1,8 +1,26 @@
 import { createGlobalStyle } from "styled-components";
-
-
+import PoppinsWoff from "../fonts/Poppins/Poppins.woff";
+import PoppinsWoff2 from "../fonts/Poppins/Poppins.woff2";
+import PoppinsBoldWoff from "../fonts/Poppins/PoppinsBold.woff";
+import PoppinsBoldWoff2 from "../fonts/Poppins/PoppinsBold.woff2";
 
 export const GlobalStyle = createGlobalStyle`
+
+  @font-face {
+    font-family: 'Poppins';
+      src: url(${PoppinsWoff2}) format('woff2'),
+      url(${PoppinsWoff}) format('woff');
+    font-weight: normal,
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'PoppinsBold';
+      src: url(${PoppinsBoldWoff2}) format('woff2'),
+      url(${PoppinsBoldWoff}) format('woff');
+    font-weight: normal,
+    font-style: normal;
+  }
+
 
   :root{
     --pink: #E31F71;
@@ -63,6 +81,13 @@ export const GlobalStyle = createGlobalStyle`
         color: var(--black);
       }
 
+      .experience-timeline-element {
+        background-color: #dbdbdb !important;
+        .vertical-timeline-element-content-arrow {
+          border-right-color: #dbdbdb !important;
+        }
+      }
+
     }
   }
 
@@ -93,8 +118,12 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body, input, textarea, button{
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
+  }
+
+  h1, h2, h3, h4{
+    font-family: 'PoppinsBold', sans-serif;
   }
 
   a{
@@ -107,6 +136,7 @@ export const GlobalStyle = createGlobalStyle`
     background-color: var(--primary);
     color: #FFFF;
     border-radius: 2rem;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     transition: filter 0.25s;
     &:hover{

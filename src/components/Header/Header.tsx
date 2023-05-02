@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 import { BrowserRouter as Router } from "react-router-dom";
 import { NavHashLink, HashLink } from "react-router-hash-link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import pLogo from "../../assets/P.png";
 import resume from "../../assets/phuynh_resume.pdf";
 
@@ -12,6 +12,10 @@ export function Header() {
     let html = document.getElementsByTagName("html")[0];
     html.classList.toggle("light");
   }
+
+  useEffect(() => {
+    toggleTheme();
+  })
 
   function closeMenu() {
     setActive(false);
