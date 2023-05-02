@@ -117,14 +117,21 @@ export const GlobalStyle = createGlobalStyle`
     color: #FFFF;
   }
 
+  p{
+    font-weight: 900 !important;
+  }
+
   body, input, textarea, button{
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
+    letter-spacing: 0.07rem;
   }
 
   h1, h2, h3, h4{
     font-family: 'PoppinsBold', sans-serif;
   }
+
+  
 
   a{
     text-decoration: none;

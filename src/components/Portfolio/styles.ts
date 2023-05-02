@@ -66,7 +66,7 @@ export const Container = styled.section`
       }
 
       p{
-        letter-spacing: 0.12rem;
+        letter-spacing: 0.07rem;
         margin-bottom: 2rem;
         a{
           color: #FFFF;
@@ -86,6 +86,10 @@ export const Container = styled.section`
           gap: 2rem;
           font-size: 1.4rem;
           opacity: 0.6;
+          li:hover {
+            opacity: 1;
+            color: #368bcf;
+          }
         }
       }
 

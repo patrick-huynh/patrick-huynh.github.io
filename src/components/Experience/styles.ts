@@ -11,6 +11,7 @@ export const Container = styled.section`
     .experiences {
         h3{
             font-size: 24px;
+            color: #368bcf;
         }
 
         h4{
@@ -22,11 +23,40 @@ export const Container = styled.section`
             font-size: 16px !important;
             font-weight: 800 !important;
         }
+
+        .timeline-icon{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+          
+          .timeline-icon-img{
+            width: 95%;
+            height: 95%;
+            object-fit: contain;
+          }
+        }
+
+        .tech-list{
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 2rem;
+          opacity: 0.6;
+          li:hover {
+            opacity: 1;
+            color: #368bcf;
+          }
+          font-size: 1.4rem;
+          font-weight: 900;
+          padding-top: 20px;
+          padding-bottom: 20px;
+        }
     }
   p{
     font-size: 14px;
     letter-spacing: 0.12rem;
-    margin-bottom: 2rem;
     a{
       color: #FFFF;
       border-bottom: 1px solid var(--primary);

@@ -19,9 +19,10 @@ export function Experience() {
         <Container id="experience">
             <h2>Experience</h2>
             <div className="experiences">
-                <VerticalTimeline>
+                <VerticalTimeline lineColor="#368bcf">
+
                     {
-                        Experiences.map(({ title, company, icon, location, date, description }) => {
+                        Experiences.map(({ title, company, icon, location, date, description, keyTerms }) => {
                             return (
                                 <VerticalTimelineElement
                                     iconStyle={{ background: primaryColor, color: '#fff' }}
@@ -29,10 +30,28 @@ export function Experience() {
                                     textClassName="experience-timeline-element"
                                     contentStyle={{ background: "#2b2b2b" }}
                                     contentArrowStyle={{ borderRightColor: "#2b2b2b" }}
+                                    icon={
+                                        <div className="timeline-icon">
+                                            <img
+                                                src={icon}
+                                                className="timeline-icon-img"
+                                            />
+                                        </div>
+                                    }
                                 >
+                                    {
+                                        <ul className="tech-list">
+                                            {
+                                                keyTerms.map((item: any) => (
+                                                    <li>{item}</li>
+                                                ))
+                                            }
+                                        </ul>
+                                    }
                                     <h3 className="vertical-timeline-element-title">{title}</h3>
                                     <h4 className="vertical-timeline-element-subtitle">{location}</h4>
                                     <p>{description}</p>
+
                                 </VerticalTimelineElement>
                             )
                         })

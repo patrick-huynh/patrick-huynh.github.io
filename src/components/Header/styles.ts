@@ -35,6 +35,7 @@ export const Container = styled.header`
 
       &:hover{
         filter: brightness(0.6);
+        opacity: 0.5;
       }
     }
 
@@ -94,6 +95,10 @@ export const Container = styled.header`
     width: 0;
     visibility: hidden;
     outline: none;
+
+    &:checked + label {
+      background: dimgrey;
+    }
   }
 
   label {
