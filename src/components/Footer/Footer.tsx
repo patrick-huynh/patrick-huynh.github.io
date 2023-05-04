@@ -1,7 +1,7 @@
 import { Container } from './styles'
 
 import reactIcon from '../../assets/react-icon.svg'
-import { Socials } from './Socials'
+import { Socials } from '../../utils/Socials'
 
 export function Footer() {
   return (
@@ -13,7 +13,7 @@ export function Footer() {
       </div>
       <div>
         <p>
-          {"Thanks for dropping by :) Connect with me ->"}
+          {"Thanks for dropping by :) Connect with me →"}
         </p>
       </div>
       <div className="social-media">

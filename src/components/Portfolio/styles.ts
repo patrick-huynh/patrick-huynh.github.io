@@ -78,6 +78,14 @@ export const Container = styled.section`
         }
       }
 
+      .img-preview {
+        width: 100%;
+        margin-bottom: 25px;
+        border-radius: 1.2rem;
+        height: 250px;
+        object-fit: cover;
+      }
+
       footer{
         margin-top: auto;
         .tech-list{

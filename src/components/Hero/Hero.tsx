@@ -8,7 +8,8 @@ import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
 import Hello from '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.svg'
-import { githubLink, linkedinLink } from "../../utils/Links"
+import { Socials } from '../../utils/Socials'
+
 export function Hero() {
   return (
     <Container id="home">
@@ -22,26 +23,19 @@ export function Hero() {
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
           <h3>Computer Science @ University of Waterloo</h3>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p>3A Term | Graduating 2025</p>
-        </ScrollAnimation>
-
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
           <div className="social-media">
-            <a
-              href={linkedinLink}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={linkedin} alt="Linkedin" />
-            </a>
-            <a
-              href={githubLink}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={githubIcon} alt="GitHub" />
-            </a>
+            {
+              Socials.map(({ name, link, icon }) => (
+                <a
+                  href={link}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={icon} alt={name} />
+                </a>
+              ))
+            }
           </div>
         </ScrollAnimation>
       </div>

@@ -10,9 +10,10 @@ interface CardProp {
     footerList: any;
     github?: string;
     external?: string;
+    img?: string;
 }
 
-export function Card({ title, body, footerList, github, external }: CardProp) {
+export function Card({ title, body, footerList, github, external, img }: CardProp) {
     const primaryColor = "#368bcf";
     return (
         <ScrollAnimation animateIn="flipInX">
@@ -33,6 +34,13 @@ export function Card({ title, body, footerList, github, external }: CardProp) {
                         }
                     </div>
                 </header>
+
+                {
+                    img &&
+                    <div>
+                        <img src={img} className="img-preview" />
+                    </div>
+                }
 
                 <div className="body">
                     <h3>{title}</h3>
