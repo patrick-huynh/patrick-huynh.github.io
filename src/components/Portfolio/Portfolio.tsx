@@ -9,8 +9,8 @@ export function Portfolio() {
       <h2>Portfolio</h2>
       <div className="projects">
         {
-          PortfolioContent.map(({ title, description, github, technologies }) => (
-            <Card title={title} body={description} footerList={technologies} github={github} />
+          PortfolioContent.map(({ title, description, github, technologies, img }) => (
+            <Card title={title} body={description} footerList={technologies} github={github} img={img} />
           ))
         }
       </div>

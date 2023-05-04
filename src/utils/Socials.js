@@ -1,7 +1,7 @@
-import { githubLink, linkedinLink, email } from "../../utils/Links";
-import linkedin from "../../assets/linkedin.svg";
-import githubIcon from "../../assets/github.svg";
-import emailIcon from "../../assets/email-icon.svg";
+import { githubLink, linkedinLink, email } from "./Links";
+import linkedin from "../assets/linkedin.svg";
+import githubIcon from "../assets/github.svg";
+import emailIcon from "../assets/email-icon.svg";
 
 export const Socials = [
   {

@@ -36,8 +36,12 @@ export const Container = styled.footer`
       width: 3rem;
 
       &:hover {
-        opacity: 50%;
-        transition: 0.25s;
+        -webkit-filter: brightness(70%);
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        transition: all 0.5s ease;
       }
     }
   }

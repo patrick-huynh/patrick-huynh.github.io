@@ -39,6 +39,14 @@ export const Container = styled.section`
     img, span {
       font-size: 3rem;
       width: 3.5rem;
+      :hover {
+        -webkit-filter: brightness(70%);
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+      }
     }
   }
 
