@@ -20,10 +20,10 @@ export const Container = styled.main`
   }
 
   @media (max-width: 740px){
-    padding: 0 1rem;
+    padding: 0 3rem;
   }
 
   @media(max-width: 360px){
-    padding: 0 1rem;
+    padding: 0 3rem;
   }
 `

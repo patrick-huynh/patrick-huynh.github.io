@@ -17,8 +17,7 @@ export const Container = styled.section`
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     gap: 2rem;
-    padding: 1rem;
-    overflow: hidden;
+    overflow: scroll;
 
     .project{
       padding: 2rem 1.8rem;
@@ -106,14 +105,14 @@ export const Container = styled.section`
 
   @media (max-width: 960px){
     .projects{
-      padding: 1rem;
+      // padding: 1rem;
       grid-template-columns: 1fr 1fr;
     }
   }
 
   @media (max-width: 740px){
     .projects{
-      padding: 1rem;
+      // padding: 1rem;
       grid-template-columns: 1fr;
     }
   }
