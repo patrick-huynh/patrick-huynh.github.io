@@ -10,7 +10,7 @@ import { Experiences } from "./Experiences"
 export function Experience() {
     useEffect(() => {
         let html = document.getElementsByTagName("html")[0];
-        console.log(html.classList)
+        // console.log(html.classList)
     }, [])
 
 
