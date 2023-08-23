@@ -50,9 +50,9 @@ export function Header() {
           <NavHashLink smooth to="#portfolio" onClick={closeMenu}>
             Portfolio
           </NavHashLink>
-          <a href={resume} target="_blank" className="button">
+          {/* <a href={resume} target="_blank" className="button">
             Resume
-          </a>
+          </a> */}
         </nav>
 
         <div
