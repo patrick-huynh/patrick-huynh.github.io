@@ -17,7 +17,6 @@ export const Container = styled.section`
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     gap: 2rem;
-    overflow: scroll;
 
     .project{
       padding: 2rem 1.8rem;
@@ -89,7 +88,7 @@ export const Container = styled.section`
         margin-top: auto;
         .tech-list{
           display: flex;
-          align-items: center;
+          flex-wrap: wrap;
           gap: 2rem;
           font-size: 1.4rem;
           opacity: 0.6;
