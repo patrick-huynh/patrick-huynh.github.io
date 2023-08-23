@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.68f0dccb.css",
-    "main.js": "/static/js/main.9b303384.js",
+    "main.js": "/static/js/main.7db4e1a6.js",
     "static/media/sudoku-solver.png": "/static/media/sudoku-solver.64194a729f73ba915358.png",
     "static/media/martinrea.png": "/static/media/martinrea.3a66df3612700e5934a2.png",
     "static/media/Hello.gif": "/static/media/Hello.d93720933c608f6178fb.gif",
@@ -13,6 +13,7 @@
     "static/media/Poppins.woff2": "/static/media/Poppins.7a1a8382f2aaee82171c.woff2",
     "static/media/PoppinsBold.woff2": "/static/media/PoppinsBold.6ded092deb0c4b673a3b.woff2",
     "static/media/dr-goose.png": "/static/media/dr-goose.2c497e3b481b1b1e5690.png",
+    "static/media/phuynh_resume.pdf": "/static/media/phuynh_resume.988d5b40a08b21804563.pdf",
     "static/media/cooperators.png": "/static/media/cooperators.3b9616fbf5cdac0a640e.png",
     "static/media/biquadris.png": "/static/media/biquadris.17929ba485939f9b093d.png",
     "static/media/node-icon.svg": "/static/media/node-icon.cc3d45a160579a330a5c17cc2c8f1407.svg",
@@ -29,10 +30,10 @@
     "static/media/linkedin.svg": "/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
     "main.68f0dccb.css.map": "/static/css/main.68f0dccb.css.map",
-    "main.9b303384.js.map": "/static/js/main.9b303384.js.map"
+    "main.7db4e1a6.js.map": "/static/js/main.7db4e1a6.js.map"
   },
   "entrypoints": [
     "static/css/main.68f0dccb.css",
-    "static/js/main.9b303384.js"
+    "static/js/main.7db4e1a6.js"
   ]
 }
