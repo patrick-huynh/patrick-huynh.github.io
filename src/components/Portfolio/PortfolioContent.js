@@ -2,6 +2,7 @@ import Biquadris from "../../assets/biquadris.png";
 import SudokuSolver from "../../assets/sudoku-solver.png";
 import ShoppingBot from "../../assets/shopping-bot.png";
 import DrGoose from "../../assets/dr-goose.png";
+import DataManager from "../../assets/data-manager.png";
 
 export const PortfolioContent = [
   {
@@ -41,6 +42,6 @@ export const PortfolioContent = [
     description:
       "Collaborated with a team to advertise, sell, and distribute school merchandise to high school graduates.",
     technologies: ["Excel"],
-    img: Biquadris,
+    img: DataManager,
   },
 ];
