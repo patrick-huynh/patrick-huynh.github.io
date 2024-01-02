@@ -1,7 +1,7 @@
 ![thumbnail](https://user-images.githubusercontent.com/58818596/236217232-d94ad44f-3167-4458-b50e-3591824c5e53.png)
 
 
-### 👋 Live - https://patrick-huynh.github.io/patrickh.me/
+### 👋 Live - https://patrick-huynh.github.io
 
 ### 🧠 How To Use
 
